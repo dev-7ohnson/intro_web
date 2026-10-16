@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navigation Bar</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap");
+
+      body {
+        font-family: "Castoro Titling", serif;
+        font-optical-sizing: auto;
+       
+      }
+      nav{
+        display: flex;
+        justify-content: center;
+        background: hsl(0, 2%, 24%);
+        
+      }
+      .content{
+        background: hsl(0, 0%, 100%);
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+     .logo img{
+        width: 70px;
+        height: 70px;
+     }
+     .content ul{
+        display: flex;
+        list-style-type: none;
+        
+     }
+     .content li{
+        margin-left: 16px;
+        margin-right: 16px;
+       
+     }
+     .content a{
+        text-decoration:none;
+        color: hsl(0, 100%, 49%);
+        padding: 12px 14px;
+
+     }
+     .content a:hover{
+        color: hsl(0, 86%, 23%);
+        background: hsl(0, 72%, 83%);
+        /* text-decoration: underline; */
+        border-bottom: 2px solid hsl(0, 100%, 49%);
+        
+     }
+ 
+    </style>
+  </head>
+  <body>
+    <!-- semantic tags -->
+   <nav>
+    <div class="content">
+        <div class="logo">
+            <img src="images/icons8-home-100.png" alt="Logo">
+        </div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Developer</a></li>
+    </div>
+   </nav>
+  </body>
+</html>
