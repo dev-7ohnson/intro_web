@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <style>
+        body{
+            background: #d6b6b6;
+            font-family: FreeSans, sans-serif;
+        }
+        table{
+            border: 2px solid black;
+            border-collapse: collapse;
+            width: 80%;
+            margin:auto;
+
+        }
+        th{
+            border: 1px solid black;
+            padding-top: 10px;
+            padding-bottom: 8px;
+            text-align: left;
+            background-color: #5c665d;
+            color: white;
+            padding-left: 8px;
+        }
+        td{
+            border: 1px solid black;
+            padding: 10px;
+
+        }
+
+        .dob-column{
+            color: #071696;
+        }
+    </style>
+</head>
+<body>
+    <table>
+       <thead>
+            <tr>
+                <th>FirstName</th>
+                <th>LastName</th>
+                <th>Email</th>
+                <th class="dob-column">DOB</th>
+                <th>Gender</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <td>John</td>
+            <td>Doe</td>
+            <td>john@example.com</td>
+            <td class="dob-column">1990-01-01</td>
+            <td>Male</td>
+            </tr>
+              <tr>
+            <td>Peter</td>
+            <td>Weber</td>
+            <td>peter@example.com</td>
+            <td class="dob-column">1990-01-01</td>
+            <td>Male</td>
+            </tr>
+              <tr>
+            <td>Emma</td>
+            <td>Lynn</td>
+            <td>emma@example.com</td>
+            <td class="dob-column">1990-01-01</td>
+            <td>Female</td>
+            </tr>
+             <tr>
+            <td>Fin</td>
+            <td>Wekly</td>
+            <td>fin@example.com</td>
+            <td class="dob-column">1990-01-01</td>
+            <td>Male</td>
+            </tr>
+        </tbody>
+
+    </table>
+</body>
+</html>

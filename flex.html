@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Flex</title>
+    <style>
+      .main-1 {
+        border: 1px solid #1a1919;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        
+      }
+      .smaller {
+        border: 1px solid rgb(156, 83, 95);
+        height: 100px;
+        width: 45%;
+        /* margin: auto; */
+      }
+      .big {
+        width: 60%;
+      }
+      .small {
+        width: 30%;
+      }
+      .container{
+        display: flex;
+        justify-content: space-between;
+      }
+      .content-1{
+        width: 23%;
+        border-bottom: 2px solid #1a1919;
+      }
+    </style>
+  </head>
+  <body>
+
+    <!-- setup username and email -->
+     <!-- git config --global user.name "dev-7ohnson" -->
+      <!-- git config --global user.email "bulumapeter982@gmail.com" -->
+
+    <div class="main-1">
+      <div class="smaller big">A</div>
+      <div class="smaller small">B</div>
+    </div>
+
+    <div class="container">
+      <div class="content-1">
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo,
+          distinctio eveniet aliquid error earum pariatur libero iste
+          exercitationem blanditiis amet autem, harum molestiae laudantium
+          delectus omnis voluptate, dolorem explicabo modi.
+        </p>
+      </div>
+
+      <div class="content-1">
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem fuga
+          et architecto fugiat corrupti nobis ipsa magnam quos impedit quod
+          illum aut, soluta ab odio voluptatum explicabo maiores possimus quis!
+        </p>
+      </div>
+      <div class="content-1">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+          quasi quia, reprehenderit architecto dicta vero ipsam ducimus? Totam
+          sapiente sequi ipsa quisquam libero, rem odio officiis, earum et id
+          recusandae?
+        </p>
+      </div>
+      <div class="content-1">
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt
+          voluptatem dignissimos ipsa ducimus nisi adipisci sed obcaecati,
+          placeat officia aspernatur architecto. Adipisci aperiam laboriosam
+          quam ullam harum repudiandae rem enim.
+        </p>
+      </div>
+    </div>
+    <!-- .content>(.s>p>lorem)*4 -->
+  </body>
+</html>
