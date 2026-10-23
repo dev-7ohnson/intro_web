@@ -3,3 +3,55 @@
 /* font-family: "Faculty Glyphic", sans-serif;
   font-weight: 400;
   font-style: normal; */
+
+:root{
+    --primary-color: #d6f49d;
+    --secondary-color: #EAD637;
+    --brand-color:#230c0f;
+    --my-padding: 16px;
+    --my-ff: 'xyz';
+}
+body{
+    font-family: "Faculty Glyphic", sans-serif;
+    background-color: var(--primary-color);
+    color: var(--brand-color);
+}
+.navbar-brand{
+    color: var(--brand-color);
+    font-size: 1.4rem;
+}
+#goods{
+    color: var(--secondary-color);
+}
+
+.navbar-brand:hover{
+    color: rgb(204, 8, 8);
+}
+.nav-link{
+    color: var(--secondary-color);
+    font-weight: 600;
+}
+.nav-link.active{
+    background-color: var(--primary-color);
+}
+.nav-link:hover{
+    background-color: var(--primary-color);
+}
+.btn-success{
+    border-radius: 3px;
+    transition: all 1s ease-in-out;
+}
+.btn-success:hover{
+    background-color: var(--secondary-color);
+    color: var(--brand-color);
+}
+
+.hero{
+    background: linear-gradient(to right, #d6f49d, #f2ffd9)
+}
+.hero .small-heading{
+    color: var(--brand-color);
+    font-weight: 600;
+    font-size: 0.85rem;
+    letter-spacing: 2px;
+}
